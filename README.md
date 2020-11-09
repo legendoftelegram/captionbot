@@ -23,3 +23,11 @@ edit translation.py and insert ur caption here
 CAP_TION = """does this work? test and message @legendoftelegram"""
 
 example CAP_TION = """enter ur caption"""
+
+
+
+
+
+3 branches are available
+
+1) master - in this bot will delete current caption and add custom caption
