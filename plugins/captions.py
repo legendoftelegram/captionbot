@@ -26,9 +26,11 @@ async def start(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.document) # @pyrogram.Client.on_message(pyrogram.Filters.document | Filters.video) set like this to trigger both or remove filters.document and add filters.video for video only
 async def old(client, message):
-    await client.edit_message_reply_markup(
+    await client.edit_message_caption(
         chat_id=message.chat.id,
         message_id=message.message_id,
+        caption=Translation.CAP_TION,
+        parse_mode=markdown, #also you can set html or none
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton('🦋name🦋', url='https://t.me/url')],
