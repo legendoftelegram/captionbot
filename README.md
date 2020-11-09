@@ -28,7 +28,7 @@ example CAP_TION = """enter ur caption"""
 
 
 
-3 branches are available
+<B>2 branches are available
 
 1) master - in this bot will delete current caption and add custom caption
-2) old-+-custom-caption(doc) - this will add custom caption without deleting old caption
+2) old-+-custom-caption(doc) - this will add custom caption without deleting old caption</B>
