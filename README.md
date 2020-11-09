@@ -10,7 +10,7 @@ DEPLOY to heroku by clicking following button
 
 
 
-# channel-buttons
+# channel-captions
 use if you need 
 
 
@@ -18,5 +18,8 @@ use if you need
 ok bie 
 
 
-#edit this line with channel name and url
-https://github.com/legendoftelegram/channel-buttons/blob/8b592b4c22171c93a635edd1642dd501ee3f80cd/plugins/old.py#L34
+edit translation.py and insert ur caption here 
+
+CAP_TION = """does this work? test and message @legendoftelegram"""
+
+example CAP_TION = """enter ur caption"""
