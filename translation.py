@@ -5,3 +5,4 @@ class Translation(object):
 👉 <b>ask dev</b>
 <b>Bot developed by</b> @Legendoftelegram"""
     CH_LIST = """<b>empty</b>"""  
+    CAP_TION = """does this work? test and message @legendoftelegram"""
