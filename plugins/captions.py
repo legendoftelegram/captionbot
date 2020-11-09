@@ -30,7 +30,7 @@ async def old(client, message):
         chat_id=message.chat.id,
         message_id=message.message_id,
         caption=Translation.CAP_TION,
-        parse_mode=markdown, #also you can set html or none
+        parse_mode="markdown", #also you can set html or none
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton('🦋name🦋', url='https://t.me/url')],
